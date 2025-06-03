@@ -41,7 +41,9 @@ df
 ```
 
 
+
 ![image](https://github.com/user-attachments/assets/fb4b9c8a-d64f-4216-bbe1-d8cc693e987a)
+
 
 
 ```
@@ -52,7 +54,9 @@ e1.fit_transform(df[["ord_2"]])
 ```
 
 
+
 ![image](https://github.com/user-attachments/assets/4899f92b-b4c8-4778-b2ac-96b675069ab3)
+
 
 
 ```
@@ -60,7 +64,9 @@ df['bo2']=e1.fit_transform(df[["ord_2"]])
 df
 ```
 
+
 ![image](https://github.com/user-attachments/assets/38193e93-27ad-4cc9-a193-f974cf3fc344)
+
 
 
 ```
@@ -71,7 +77,10 @@ dfc
 ```
 
 
+
 ![image](https://github.com/user-attachments/assets/bce24d7e-87ea-40e4-937c-d7540bd26b96)
+
+
 
 ```
 from sklearn.preprocessing import OneHotEncoder
@@ -82,13 +91,18 @@ df2=pd.concat([df2,enc],axis=1)
 df2
 ```
 
+
 ![image](https://github.com/user-attachments/assets/4c9cbd4f-261b-4b31-8650-449fd367e4e9)
+
 
 ```
 pd.get_dummies(df2,columns=["nom_0"])
 ```
 
+
 ![image](https://github.com/user-attachments/assets/bbda2cc7-0824-401c-b45a-959af69d7c84)
+
+
 
 ```
 from category_encoders import BinaryEncoder
@@ -101,7 +115,10 @@ dfb=pd.concat([df,nd],axis=1)
 dfb
 ```
 
+
 ![image](https://github.com/user-attachments/assets/9f772f77-2ba1-4acc-bea5-af45f84283a4)
+
+
 
 ```
 from category_encoders import TargetEncoder
@@ -114,6 +131,7 @@ CC
 
 
 ![image](https://github.com/user-attachments/assets/d019b565-0f35-494a-9251-be1a61391d0a)
+
 
 ```
 import pandas as pd
@@ -128,11 +146,14 @@ from scipy import stats
 df.skew()
 ```
 
+
 ![image](https://github.com/user-attachments/assets/1e688fa2-aab0-4fc9-b146-8aedfcb7921c)
+
 
 ```
 np.log(df["Highly Positive Skew"])
 ```
+
 
 ![image](https://github.com/user-attachments/assets/46fed48d-de60-49ec-9b71-8bbd4e3cbc00)
 
