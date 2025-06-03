@@ -22,7 +22,7 @@ We use this categorical data encoding technique when the features are nominal(do
 
 # Methods Used for Data Transformation:
   # 1. FUNCTION TRANSFORMATION
-• Log Transformation
+• Log Transformation 
 • Reciprocal Transformation
 • Square Root Transformation
 • Square Transformation
