@@ -31,28 +31,23 @@ We use this categorical data encoding technique when the features are nominal(do
 • Yeojohnson method
 
 # CODING AND OUTPUT:
- `` 
+``` 
 NAME: KAVIYA S
 REG NO.: 212223040090
-``
+```
 import pandas as pd
-
 df=pd.read_csv("Encoding Data.csv")
-
 df
-``
+```
 
 ![image](https://github.com/user-attachments/assets/fb4b9c8a-d64f-4216-bbe1-d8cc693e987a)
 
-``
+```
 from sklearn.preprocessing import LabelEncoder,OrdinalEncoder
-
 pm=['Hot','Warm','Cold']
-
 e1=OrdinalEncoder(categories=[pm])
-
 e1.fit_transform(df[["ord_2"]])
-``
+```
 
 ![image](https://github.com/user-attachments/assets/4899f92b-b4c8-4778-b2ac-96b675069ab3)
 
