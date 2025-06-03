@@ -38,6 +38,7 @@ REG NO.: 212223040090
 import pandas as pd
 df=pd.read_csv("Encoding Data.csv")
 df
+
 ``
 
 
