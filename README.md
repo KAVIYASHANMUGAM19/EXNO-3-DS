@@ -31,15 +31,15 @@ We use this categorical data encoding technique when the features are nominal(do
 • Yeojohnson method
 
 # CODING AND OUTPUT:
-``
+```
 NAME: KAVIYA S
 REG NO.: 212223040090
-``
+```
 import pandas as pd
 df=pd.read_csv("Encoding Data.csv")
 df
 
-``
+```
 
 
 
